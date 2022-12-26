@@ -2,9 +2,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import folium
 import plotly.express as px
 from shapely.geometry import Point, Polygon
-import folium
 from streamlit_folium import st_folium
 import geopandas as gpd
 import geopy
